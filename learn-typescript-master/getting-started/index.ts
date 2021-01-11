@@ -1,0 +1,1 @@
+//tsc index.ts -> 파일을 index.ts로 바꾸겠다
