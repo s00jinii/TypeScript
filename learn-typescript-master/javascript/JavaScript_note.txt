@@ -1,0 +1,20 @@
+//1. data Type
+primitive Type
+    - Number
+    - String
+    - Boolean
+    - null
+    - undefined
+
+reference Type
+    -object ( Array / Function / RegExp)
+
+실행 콘텐스트 execution Context 
+: 실행에 필요한 코드 흐름상의 배경이 되는 조건 / 환경 
+-동일한 조건, 환경을 지니는 코드 뭉치
+
+lexical Environment (전역)
+EnvironmentRecord : 현재 문맥의 식별자 정보 : hoisting
+
+outerEnvironmentReference
+현재 문맥에 관련 있는 외부 식별자 정보
