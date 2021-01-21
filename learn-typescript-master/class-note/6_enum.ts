@@ -12,14 +12,12 @@ enum Answer{
     No = 'N',
 }
 
-function askQuestion(answer: string){
-    if (answer === 'yes'){
+function askQuestion(answer: Answer){
+    if (answer === Answer.Yes){
         console.log('정답입니다');
     }
-    if (answer ==='no'){
+    if (answer === Answer.No){
         console.log('오답입니다');
     }
 }
-askSomeone('예스');
-askSomeone('예스');
-askSomeone('예스');
+askQuestion(Answer.Yes);
