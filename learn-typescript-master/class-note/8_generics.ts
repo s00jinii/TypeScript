@@ -25,3 +25,12 @@ function logNumber(num:number){
 
 logText('a');
 const num = logNumber(10);
+
+
+interface Dropdown<T>{
+    value: T;
+    selected: boolean;
+}
+
+// const obj: Dropdown = { value:10, selected: false};
+const obj: Dropdown <number>= {value:'abc', selected: false};
