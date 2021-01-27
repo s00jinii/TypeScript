@@ -57,3 +57,14 @@ function logTextLength1<T extends LengthType>(text: T): T{
 logTextLength1('a');
 logTextLength1({ length: 10});
 
+interface ShoppingItem{
+    name:string;
+    price: number;
+    stock: number;
+}
+function getShoppingItemOption<t extends keyof ShoppingItem>(itemOption: T):T{
+    return itemOption;
+}
+
+getShoppingItemOption();
+getShoppingItemOption<string>('a');
